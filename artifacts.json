@@ -1,6 +1,6 @@
 {
-    "this-repository": "https://github.com/DSC-Capstone/artifact-directory-template.git",
-    "project-repository": "https://github.com/DSC-Capstone/project-templates.git",
-    "project-website-url": "https://afraenkel.github.io/capstone-malware-domain/",
-    "project-website-code": "https://github.com/afraenkel/capstone-malware-domain.git"
+    "this-repository": "https://github.com/UCSD-DSC-Capstone-B08-LLM-Team/artifact-directory-template",
+    "project-repository": "https://github.com/UCSD-DSC-Capstone-B08-LLM-Team/LLM_as_Info_Extractor",
+    "project-website-url": "https://ucsd-dsc-capstone-b08-llm-team.github.io/llm-info-extractor-website/",
+    "project-website-code": "https://github.com/UCSD-DSC-Capstone-B08-LLM-Team/llm-info-extractor-website"
 }

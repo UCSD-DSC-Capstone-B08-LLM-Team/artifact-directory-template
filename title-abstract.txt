@@ -1,5 +1,5 @@
 Title:
-<MY SUPER AWESOME PROJECT TITLE>
+Large Language Models as Information Extractors in Healthcare
 
 Abstract:
 <MY SUPER AWESOME PROJECT ABSTRACT>
