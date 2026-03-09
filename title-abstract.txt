@@ -2,4 +2,29 @@ Title:
 Large Language Models as Information Extractors in Healthcare
 
 Abstract:
-<MY SUPER AWESOME PROJECT ABSTRACT>
+Large Language Models (LLMs) show strong potential for clinical informa-
+tion extraction, however, electronic health records (EHR) often contain large
+amounts of redundant or irrelevant text that confuse the LLM making it strug-
+gle to reliably retrieve relevant information. Retrieval-augmented generation
+(RAG) can mitigate this challenge by reducing the amount of context provided
+to the LLM, although the most optimal approaches have not been explored.
+We introduce a benchmark for evaluating and comparing retrieval methods
+for EHR information extraction. Using the Severe Sepsis and Septic Shock
+Early Management Bundle (SEP-1) from the Centers for Medicare and Medi-
+caid Services (CMS) specifications manual, we generated 100 synthetic nee-
+dles representing positive qualifiers across five clinically meaningful elements.
+For each element, we randomly selected 10,000 patients from the MIMIC-III
+dataset (461,290 total clinical notes) and inserted one synthetic needle per
+patient to construct patient-level haystacks. We evaluated six retrieval strate-
+gies and prompted the LLM using top-10 retrieved passages. We assess the
+retrieval approaches against a baseline approach without RAG that uses all
+the information within the context limit of the model. LLM responses were
+generated using AWS Bedrock (DeepSeek-V3) and evaluated on classification
+and extraction tasks. SPLADE achieved the highest top-k recall, while BM25
+achieved the lowest. Retrieval effectiveness varied by clinical element, with
+clinical trial queries achieving the highest recall and vasopressor queries the
+lowest. Baseline performance indicated that longer context and higher top-k
+retrieval reduced model accuracy, showcasing the need for retrieval. Overall,
+our results demonstrate a strong positive correlation between retrieval qual-
+ity and LLM accuracy, emphasizing that developing and improving retrieval
+strategies can lead to more effective clinical information extraction.
